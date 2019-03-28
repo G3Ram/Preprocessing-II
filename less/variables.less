@@ -12,3 +12,17 @@
 @eastern-blue: #17a2b8;
 @sandy-beach: #ffebcd;
 @niagara: #09aa7a;
+
+// Escaping
+@mobile: ~"(max-width:500px)";
+
+@media @mobile {
+  header {
+    flex-direction: column;
+
+    h1 {
+      margin: 2%;
+      font-size: 3rem;
+    }
+  }
+}
