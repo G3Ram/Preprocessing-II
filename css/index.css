@@ -1,12 +1,3 @@
-@media (max-width:500px) {
-  header {
-    flex-direction: column;
-  }
-  header h1 {
-    margin: 2%;
-    font-size: 3rem;
-  }
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -250,10 +241,8 @@ header nav a {
   }
   .home .content-section .img-content {
     width: 100%;
-    height: 100%;
   }
   .home .content-section .img-content img {
-    padding: 0%;
     width: 100%;
     height: 100%;
   }
@@ -291,15 +280,13 @@ header nav a {
 }
 .home .content-destination img {
   border-radius: 10px;
+  width: 100%;
 }
 @media (max-width:500px) {
   .home .content-destination {
     margin: 5%;
     width: 90%;
   }
-}
-.home .content-destination img {
-  width: 100%;
 }
 .home .content-pick {
   padding-top: 30px;
@@ -314,7 +301,7 @@ header nav a {
 .home .content-pick .destination .btn {
   border-radius: 1.5rem;
   padding: 15px;
-  width: 50px;
+  width: 200px;
   height: 50px;
   text-align: center;
   cursor: pointer;
@@ -370,4 +357,13 @@ header {
   margin-top: 1.75%;
   border-bottom: 2px dashed silver;
   padding: 0% 10% 2.5% 10%;
+}
+@media (max-width:500px) {
+  header {
+    flex-direction: column;
+  }
+  header h1 {
+    margin: 2%;
+    font-size: 3rem;
+  }
 }
